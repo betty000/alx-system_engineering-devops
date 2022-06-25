@@ -1,0 +1,5 @@
+pwd
+echo $HOME
+./2-bring_me_home
+pwd
+$
