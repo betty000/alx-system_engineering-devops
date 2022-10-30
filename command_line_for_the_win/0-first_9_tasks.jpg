@@ -1,1 +1,7 @@
-import cmd.jpeg
+#!/bin/bash
+
+for cmdchallenge.com.jpeg in `ls *.jpeg`
+do 
+cmdchallenge.com.jpg = `ech $cmdchallenge.com.jpeg | sed 's/jpeg'`
+convert $cmdchallenge.com.jpeg $cmdchallenge.com.jpg
+done
