@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-# show all active ip4 adressse
-ifconfig | awk -F '[: ]+' '/inet addr:/ {print $4}'
+# Displays all acive IPv4 addresses.
+
+ifconfig -a | grep "inet addr" | cut -d " " -f12 | cut -d ":" -f2
